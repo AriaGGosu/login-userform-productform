@@ -1,0 +1,36 @@
+.container-user-form{
+        background:url(../imgs/mom.jpg);
+        padding: 4.95%;
+        background-size: 100%;
+        
+    }
+    .create-user-form{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        text-align: center;
+        width: 480px;
+        padding: 30px;
+        border-radius: 10px;
+        margin:auto;
+    }
+        .create-user-button{
+            background-color: #050505;
+            border-color: #050505;
+            width: 100%;
+            color:white;
+        }
+        
+        .create-user-button:hover{
+            border-color: #050505;
+            background-color: #050505;
+            box-shadow: 0px 0px 5px 1px white;
+        }
+    
+    #input-name:focus,
+    #input-rut:focus,
+    #input-email:focus,
+    #input-country:focus,
+    #input-password{
+        box-shadow: 0px 0px 6px 1px #ffffff;
+        border-color: darkblue;
+    }
